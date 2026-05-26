@@ -583,33 +583,3 @@ if __name__ == "__main__":
         incremental_clustering=args.incremental_clustering,
         drop_table_post_run=args.drop_table_post_run,
     )
-
-# Create a liquid clustered table (or alter an existing one)
-spark.sql("""
-    CREATE TABLE events CLUSTER BY (event_date, region)
-    AS SELECT * FROM ...
-""")
-
-# OPTIMIZE now uses Incremental Liquid Clustering automatically
-spark.sql("""
-    OPTIMIZE events
-""")
-
-
-
-
-spark.sql(f"""
-          -- Create a liquid clustered table (or alter an existing one)
-
-CREATE TABLE events
-
-CLUSTER BY (event_date, region)
-
-AS SELECT * FROM ...;
-
-
-
--- OPTIMIZE now uses Incremental Liquid Clustering automatically
-
-OPTIMIZE events;
-          """)
