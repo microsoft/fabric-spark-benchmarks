@@ -4,9 +4,9 @@ Reproducible benchmarks for [Microsoft Fabric](https://learn.microsoft.com/fabri
 
 ## Benchmarks
 
-| Benchmark | Description |
-|---|---|
-| [Incremental Clustering](benchmarks/liquid-clustering/incremental-clustering/README.md) | Measures clustering performance across streaming, ETL, and analytics workloads with Incremental Liquid Clustering in Microsoft Fabric compared to the baseline Liquid Clustering algorithm from OSS `delta-spark`. |
+| Benchmark | Description | Blog Link |
+|---|---|---|
+| [Incremental Clustering](benchmarks/liquid-clustering/incremental-clustering/README.md) | Measures clustering performance across streaming, ETL, and analytics workloads with Incremental Liquid Clustering in Microsoft Fabric compared to the baseline Liquid Clustering algorithm from OSS `delta-spark`. | [Incremental Liquid Clustering in Microsoft Fabric: Faster, smarter, and truly incremental](https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Incremental-Liquid-Clustering-in-Microsoft-Fabric-Faster-smarter/ba-p/5189122) |
 
 ## Quick start
 
