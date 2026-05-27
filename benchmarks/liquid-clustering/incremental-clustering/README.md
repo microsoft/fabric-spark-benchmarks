@@ -2,7 +2,7 @@
 
 ## Overview
 
-This benchmark measures the performance of Delta Lake `OPTIMIZE` with incremental clustering versus baseline (full re-clustering) across three real-world workload patterns. It quantifies write amplification reduction, optimize duration, and query file-pruning improvements in Microsoft Fabric Spark.
+This benchmark measures the performance of running `OPTIMIZE` on Liquid Clustering enabled Delta Lake tables with Incremental Clustering versus baseline (semi-incremental clustering algorithm from OSS) across three real-world workload patterns. It quantifies write amplification reduction, optimize (clustering) duration, and query file-pruning improvements in Microsoft Fabric Spark.
 
 ## Methodology
 
